@@ -1,0 +1,52 @@
+.navbar-light .navbar-brand {
+    position: relative;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+h1 {
+    color: teal;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.navbar-brand {
+    position: absolute;
+    height: 100%;
+    font-size: 50px;
+    background-color: teal;
+    color: white;
+}
+
+body {
+    background-color:whitesmoke;
+}
+
+p {
+    border: 20px;
+    padding: 20px;
+    font-size: 26px;
+}
+
+img {
+    float: left;
+    padding: 10px;
+}
+
+.container {
+    margin: 100px;
+    border: black;
+}
+
+#nav-select {
+    visibility: hidden;
+}
+
+@media (max-width: 480px) {
+    #nav-select {
+        visibility: visible;
+    }
+}
